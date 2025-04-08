@@ -1,0 +1,43 @@
+@import url(./global.css);
+
+.logo{
+    padding: 49px 100px 53px 100px;
+}
+
+
+.nav-header ul a{
+    text-decoration: none;
+    color: #18191F;
+}
+
+.images-header{
+    display: flex;
+    justify-content: flex-end; /* empurra tudo pra direita */
+    gap: 10px;                 /* espaço entre os itens (opcional) */
+    padding: 0px;  
+    margin-top: 0px;
+    top: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* distribui os blocos: esquerda, centro, direita */
+    align-items: center;            /* alinha tudo na vertical */
+    padding: 20px 50px;
+  }
+
+  .nav-header ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    /* Remova essas linhas: */
+    /* position: fixed;
+       top: 0;
+       left: 50%;
+       transform: translateX(-50%); */
+  }
+.active{
+    color: rgb(20, 233, 20);
+}
